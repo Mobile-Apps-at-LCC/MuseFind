@@ -39,3 +39,9 @@ npm run start
 scan application
 Copy the links below into browser for the image references to show up. 
 ![applicationstart](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/24184067-6819-45e9-8a34-84affb449624)
+
+
+If for whatever reason the application does not allow you to create an account or login, then go to https://dashboard.ngrok.com/get-started/your-authtoken, using your own account. Reset the authtoken, then copy the authtoken config, the first instruction, and place it in the ngrok CMD terminal window, hit enter, then after this type ngrok http 3000. This should fix the error, if and only if there are errors on login or account creation.
+
+![ngrok troubleshoot](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c31091b7-d1c4-44a3-9fa2-aa626ad1d4ab)
+
