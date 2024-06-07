@@ -9,7 +9,7 @@ cd MuseFind/Musefind
 
 # Step 2: Install Dependencies
 npm install
-cd ../music-server
+cd music-server
 npm install
 cd ../ngrok
 npm install
