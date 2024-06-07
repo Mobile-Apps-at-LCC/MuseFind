@@ -15,6 +15,7 @@ cd ../ngrok
 npm install
 
 # Step 3: Setup Ngrok
+Open a cmd terminal and navigate the projects ngrok folder then type,
 ngrok http 3000
 # Copy the generated Ngrok URL and paste it into `app/api.js`
 
