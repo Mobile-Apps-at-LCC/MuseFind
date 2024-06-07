@@ -24,5 +24,5 @@ npm run dev
 npm run start
 
 # Step 5: Scan the Application
-# Open a separate terminal window in your code editor and navigate to the application directory, then type:
+# Open a separate terminal window in your code editor and navigate to the application directory, at this point you should have a cmd for ngrok, a terminal window for music-server, and finally a terminal window for app folder. then type:
 npm run start
