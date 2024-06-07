@@ -19,7 +19,10 @@ Open a cmd terminal and navigate the projects ngrok folder then type,
 ngrok http 3000
 # Copy the generated Ngrok URL and paste it into `app/api.js`
 
-Copy the links below into browser for the image references to show up. 
+Copy the links below into browser for the image references to show up.
+
+(these just are for example references to help navigate, attempted to add images, but github isnt automatically posting the images, so just copy the link in the browser, in order to view the images)
+
 ![ngrok](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/6a372ee2-637e-4140-b313-a97b0097a3c6)
 ![ngrok2](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/1a87150f-7e2c-4369-921f-71f0634d5448)
 ![ngrok3](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/bbef8ba1-803f-4402-b9cb-f87fc925b570)
