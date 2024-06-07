@@ -28,12 +28,14 @@ Copy the links below into browser for the image references to show up.
 # Step 4: Start the Application
 cd ../music-server
 npm run dev
-npm run start
+
+
 Copy the links below into browser for the image references to show up. 
 ![music-server](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/60e26e92-f49c-42c6-bc27-07466cb8c3e0)
 
 # Step 5: Scan the Application
-# Open a separate terminal window in your code editor and navigate to the application directory, at this point you should have a cmd for ngrok, a terminal window for music-server, and finally a terminal window for app folder. then type:
+# Open a separate terminal window in your code editor and navigate to the application directory(musefind\musefind\app), at this point you should have a cmd for ngrok, a terminal window for music-server, and finally a terminal window for app folder. then type:
 npm run start
+scan application
 Copy the links below into browser for the image references to show up. 
 ![applicationstart](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/24184067-6819-45e9-8a34-84affb449624)
