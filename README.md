@@ -4,7 +4,7 @@
 
 ```bash
 # Step 1: Clone the Repository
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/Mobile-Apps-at-LCC/MuseFind.git
 cd MuseFind/Musefind
 
 # Step 2: Install Dependencies
