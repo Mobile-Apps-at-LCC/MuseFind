@@ -32,7 +32,7 @@ If you encounter issues with account creation or login, follow these steps:
 
 ## Project Structure
 
-The project follows a structured organization to ensure modularity and separation of concerns. Here's an overview of the main directories and files:
+
 
 - **app/**: Contains the main React Native application code.
   - **components/**: Reusable components used throughout the app.
@@ -82,6 +82,4 @@ If you face issues with account creation or login, visit [Ngrok Dashboard](https
 
 ![Troubleshoot Ngrok](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c31091b7-d1c4-44a3-9fa2-aa626ad1d4ab)
 
----
 
-The readme has been revised for clarity, coherence, and corrected formatting for a better understanding of the application and its setup process.
