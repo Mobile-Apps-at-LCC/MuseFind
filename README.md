@@ -1,4 +1,54 @@
-# Application Name
+# MuseFind
+
+MuseFind is a React Native application developed with Expo, designed for users to manage music entries, explore their music feed, and play tracks. It utilizes MongoDB for data storage and Ngrok for secure password hashing and salting.
+
+## Features
+
+- User registration and login with secure password hashing and salting
+- Create music entries including track name, artist, genre, audio file, and image
+- Browse music feed sorted by genre
+- Play tracks directly from the application
+- Filter music entries by genre, track, artist, or other criteria
+
+## Technologies Used
+
+- React Native
+- Expo
+- MongoDB
+- Ngrok
+- Express
+- Node.js
+- Bcrypt
+- JSON Web Tokens (JWT)
+
+## Troubleshooting
+
+If you encounter issues with account creation or login, follow these steps:
+
+1. Go to [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken) and sign in.
+2. Reset the authtoken and copy the authtoken configuration command.
+3. Paste the command in the Ngrok command prompt and press Enter.
+4. Run `ngrok http 3000` again to start Ngrok with the new authtoken.
+
+## Project Structure
+
+The project follows a structured organization to ensure modularity and separation of concerns. Here's an overview of the main directories and files:
+
+- **app/**: Contains the main React Native application code.
+  - **components/**: Reusable components used throughout the app.
+  - **screens/**: Main screens of the app.
+  - **navigation/**: Navigation configuration and navigators.
+  - **context/**: Audio context provider for global state management.
+  - **api.js**: API calls and configuration.
+
+- **music-server/**: Backend server code.
+  - **src/**: Server source code.
+  - **models/**: MongoDB models.
+  - **routes/**: API routes.
+  - **middlewares/**: Custom middleware functions.
+  - **index.js**: Entry point of the server.
+
+- **ngrok/**: Ngrok configuration and dependencies.
 
 ## Installation Guide
 
@@ -15,36 +65,23 @@ cd ../ngrok
 npm install
 
 # Step 3: Setup Ngrok
-Open a cmd terminal and navigate the projects ngrok folder then type,
+Open a terminal and navigate to the ngrok folder. Then type:
 ngrok http 3000
 # Copy the generated Ngrok URL and paste it into `app/api.js`
-
-Copy the links below into browser for the image references to show up.
-
-(these just are for example references to help navigate, attempted to add images, but github isnt automatically posting the images, so just copy the link in the browser, in order to view the images)
-
-![ngrok](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/6a372ee2-637e-4140-b313-a97b0097a3c6)
-![ngrok2](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/1a87150f-7e2c-4369-921f-71f0634d5448)
-![ngrok3](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/bbef8ba1-803f-4402-b9cb-f87fc925b570)
-
 
 # Step 4: Start the Application
 cd ../music-server
 npm run dev
 
-
-Copy the links below into browser for the image references to show up. 
-![music-server](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/60e26e92-f49c-42c6-bc27-07466cb8c3e0)
-
-# Step 5: Scan the Application
-# Open a separate terminal window in your code editor and navigate to the application directory(musefind\musefind\app), at this point you should have a cmd for ngrok, a terminal window for music-server, and finally a terminal window for app folder. then type:
+# Step 5: Start the React Native Application
+# Open another terminal and navigate to the app folder (musefind/app). Then type:
 npm run start
-scan application using Expo Go
-Copy the links below into browser for the image references to show up. 
-![applicationstart](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/24184067-6819-45e9-8a34-84affb449624)
+# Scan the QR code using Expo Go app on your device to run the application.
 
+If you face issues with account creation or login, visit [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken) using your account. Reset the authtoken, copy the authtoken configuration, and follow the provided instructions in the Ngrok terminal window by pasting the command and restarting `ngrok http 3000`.
 
-If for whatever reason the application does not allow you to create an account or login, then go to https://dashboard.ngrok.com/get-started/your-authtoken, using your own account. Reset the authtoken, then copy the authtoken config, the first instruction, and place it in the ngrok CMD terminal window, hit enter, then after this type ngrok http 3000. This should fix the error, if and only if there are errors on login or account creation.
+![Troubleshoot Ngrok](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c31091b7-d1c4-44a3-9fa2-aa626ad1d4ab)
 
-![ngrok troubleshoot](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c31091b7-d1c4-44a3-9fa2-aa626ad1d4ab)
+---
 
+The readme has been revised for clarity, coherence, and corrected formatting for a better understanding of the application and its setup process.
