@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 //base url for the api based on the ngrok url
-const BASE_URL = ' https://47be-2601-1c2-c101-f970-2574-3611-11ee-9919.ngrok-free.app'; // Replace with your ngrok URL
+const BASE_URL = ' https://22f9-2601-1c2-c101-f970-95be-6000-f39b-2ce8.ngrok-free.app'; // Replace with your ngrok URL
 
 
 
