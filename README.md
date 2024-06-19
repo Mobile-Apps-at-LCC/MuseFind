@@ -39,7 +39,7 @@ Copy the links below into browser for the image references to show up.
 # Step 5: Scan the Application
 # Open a separate terminal window in your code editor and navigate to the application directory(musefind\musefind\app), at this point you should have a cmd for ngrok, a terminal window for music-server, and finally a terminal window for app folder. then type:
 npm run start
-scan application
+scan application using Expo Go
 Copy the links below into browser for the image references to show up. 
 ![applicationstart](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/24184067-6819-45e9-8a34-84affb449624)
 
