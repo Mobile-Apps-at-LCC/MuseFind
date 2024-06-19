@@ -1,7 +1,6 @@
 # MuseFind
-![Screenshot_20240618-194951](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/a1752489-8f8a-4eca-a4f0-58447c39d2cd)
-![musefindhome](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/181138a7-a527-4b8e-847a-2c277863355f)
-![Screenshot_20240618-194931](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c3cf5d41-bca5-4a0f-a938-df372858a27b)
+
+![musefindcover](https://github.com/Mobile-Apps-at-LCC/MuseFind/assets/41456635/c0d05cb3-ffef-4490-8b74-1ee9169d1db8)
 
 MuseFind is a React Native application developed with Expo, designed for users to manage music entries, explore their music feed, and play tracks. It utilizes MongoDB for data storage and Ngrok for secure password hashing and salting.
 
